@@ -1,0 +1,25 @@
+.total {
+  background: white;
+}
+.list {
+  display: flex;
+}
+.right {
+  padding-top: 10px;
+  padding-left: 10px;
+}
+image {
+  width: 60px;
+  height: 60px;
+  padding-left: 10px;
+  padding-top: 10px;
+}
+.button {
+  padding-left: 75%;
+}
+.money {
+  padding-left: 75%;
+  margin-bottom: 8px;
+  font-weight: 1000;
+  color: rgb(231, 73, 205);
+}

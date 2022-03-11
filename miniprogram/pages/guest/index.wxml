@@ -1,0 +1,46 @@
+<van-cell-group>
+  <van-field
+    value="{{ user.name }}"
+    clearable
+    label="性名"
+    placeholder="请输入用户名"
+    bind:change="nameChange"
+  />
+  <view class="gender">
+    <view>性别</view>
+    <radio-group bindchange="genderChange">
+      <radio value="male" class="man" id="man">男</radio>
+      <radio value="female" class="woman">女</radio>
+    </radio-group>
+  </view>
+  <van-field
+    value="{{ user.area }}"
+    clearable
+    label="旅行期望住址"
+    placeholder=""
+    bind:change="areaChange"
+    bind:focus="showPopup"
+    bind:clear="clear" 
+  />
+  <van-popup
+    show="{{ show }}" 
+    position="bottom"
+    custom-style="height: 50%;"
+    bind:close="onClose">
+    <van-area area-list="{{ areaList }}" bind:confirm="area" />
+  </van-popup>
+  <!-- <van-field
+    value="{{ user.address }}"
+    clearable
+    label="详细住址"
+    placeholder="旅行期望的住宿地"
+    bind:change="addressChange"
+  /> -->
+</van-cell-group>
+<view class="button">
+  <van-button color="linear-gradient(to right, #F12711, #F5AF19)" bind:click="submit">
+  提交审核
+  </van-button>
+</view>
+<van-toast id="van-toast" />
+<van-toast id="van-toast" />

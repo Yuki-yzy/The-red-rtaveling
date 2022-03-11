@@ -1,0 +1,49 @@
+.button {
+  height: 100px;
+  width: 100px;
+  margin: 0 auto;
+  margin-top: 20%;
+}
+.gender {
+  height: 40px;
+  background-color: white;
+  border-bottom: 1px solid #F5F6F7;
+  line-height: 40px;
+  display: flex;
+}
+.gender>view {
+  padding-left: 15px;
+  color: #646566;
+  font-size: 14px;
+}
+.man,.woman {
+  padding-left: 50px;
+  color: #B6B6B6;
+}
+.upload {
+  height: 40px;
+  background-color: white;
+  border-bottom: 1px solid #F5F6F7;
+  line-height: 40px;
+  display: flex;
+}
+.upload>view {
+  padding-left: 15px;
+  color: #646566;
+  font-size: 14px;
+}
+.up {
+  padding-left: 50px;
+}
+.photo {
+  margin-top: 10px;
+}
+.photo>view{
+  padding-left: 15px;
+  color: #646566;
+  font-size: 14px;
+}
+image { 
+  padding: 10px 0 0 100px;
+  width: 150px;
+}

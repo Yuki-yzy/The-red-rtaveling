@@ -1,0 +1,94 @@
+.total {
+  width: 95%;
+  margin: 0 auto;
+  height: 400px;
+}
+.title {
+  margin-top: 15px;
+  text-align: center;
+  font:bold 20px helvetica, arial, sans-serif;
+  color: red;        /*字体设为红色*/
+  /* text-shadow:0 0 4px white,  
+              0 -5px 4px #ff3,   
+              2px -5px 6px #fd3,   
+              -2px -15px 11px #f80,   
+              2px -5px 18px #f20;   */
+}
+swiper{
+  margin-top: 10px;
+  width: 100%;
+  height: calc(750rpx*615/1269);
+}
+image {
+  width: 100%;
+}
+.lead {
+  margin-top: 15px;
+  display: flex;
+  justify-content: space-around;
+}
+.img {
+  width: 40px;
+}
+.lead>view>view {
+  text-align: center;
+  font-size: 13px;
+}
+.example {
+  margin-top: 15px;
+  display: flex;
+  height: 120px;
+}
+.example>view>image {
+  width: 120px; 
+  padding-right: 10px;
+}
+.example>view>view {
+  text-align: center;
+  font-size: 13px;
+}
+.first {
+  margin-top: 15px;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+.button {
+  display: flex;
+  justify-content: space-around;
+}
+.button>view>view {
+  margin-top: 10px;
+}
+.way {
+  align-self: center;
+}
+.green {
+  background-color:  #e4faf2;
+}
+.red {
+  background-color: #fcddda;
+}
+.blue {
+  background-color: #dceff5;
+}
+.button>view>view {
+  height: 40px;
+  width: 160px;
+  text-align: center;
+  line-height: 40px;
+  border-radius: 20px;
+}
+.green>view,.red>view,.blue>view {
+  display: inline;
+  padding-right: 8px;
+}
+.green>view:nth-child(1) {
+  color: rgb(58, 247, 52);
+}
+.red>view:nth-child(1) {
+  color: rgb(236, 43, 43);
+}
+.blue>view:nth-child(1) {
+  color: rgb(26, 164, 243);
+}
+

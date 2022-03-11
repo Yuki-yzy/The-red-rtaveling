@@ -1,0 +1,102 @@
+.null {
+  height: 20px;
+  width: 100%;
+}
+.container {
+  height: 190px;
+  width: 80%;
+  margin: 0 auto;
+  /* border-radius: 10px; */
+  /*background: #ed4264;  !* fallback for old browsers *!*/
+  /*background: -webkit-linear-gradient(to right, rgb(237, 66, 100), rgb(255, 237, 188));*/
+  background: linear-gradient(to right, rgb(237, 66, 100), rgb(255, 237, 188)); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.container > view{
+  display: flex;
+  width: 100%;
+}
+
+.up>view,.down>view,navigator {
+  height: 90px;
+  width: 50%;
+  border: 4px solid #F6F6F6;
+  /* border-radius: 10px; */
+  color: white;
+}
+.up>view>view,.down>view>view,.two>view {
+  padding: 10px 0 0 10px;
+}
+swiper{
+  width: 100%;
+  height: calc(750rpx*615/1269);
+}
+image {
+  width: 100%;
+}
+.two>image {
+  height: 65%;
+  padding-left: 45%;
+}
+.one>image {
+  height: 63%;
+  padding-left: 55%;
+}
+.three>image {
+  height: 65%;
+  padding-left: 47%;
+}
+.four>image {
+  height: 50%;
+  padding-left: 47%;
+}
+.one,.two,.three,.four {
+  background-repeat: no-repeat;
+}
+.article {
+  margin-top: 20px;
+  /* padding-left: 10px; */
+  width: 100%;
+}
+.title {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.titleOne {
+  height: 100px;
+  line-height: 100px;
+}
+.jgs {
+  background: #ddd6f3;  /* fallback for old browsers */      background: -webkit-linear-gradient(to right, rgb(221, 214, 243), rgb(250, 172, 168));  /* Chrome 10-25, Safari 5.1-6 */      background: linear-gradient(to right, rgb(221, 214, 243), rgb(250, 172, 168)); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */         
+  border-radius: 8px;
+  display: flex;
+  width: 90%;
+  margin: 0 auto;
+  border: 1px solid white
+}
+.jgs>image {
+  width: 30%;
+  align-self: center;
+  /* padding-left: 10px; */
+}
+.jgs>view {
+  width: 65%;
+  text-align: center;
+}
+.ya {
+  background: #ff7e5f;  /* fallback for old browsers */      background: -webkit-linear-gradient(to right, rgb(255, 126, 95), rgb(254, 180, 123));  /* Chrome 10-25, Safari 5.1-6 */      background: linear-gradient(to right, rgb(255, 126, 95), rgb(254, 180, 123)); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */      
+  border-radius: 8px;
+  display: flex;
+  width: 90%;
+  margin: 0 auto;
+  border: 1px solid white
+}
+.ya>view {
+  text-align: center;
+  width: 65%;
+}
+.ya>image {
+  width: 31%;
+  align-self: center;
+  /* padding-left: 40px; */
+}

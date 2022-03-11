@@ -1,0 +1,87 @@
+<view class="total">
+  <view class="title">旅游攻略</view>
+  <van-search
+    value="{{ value }}"
+    shape="round"
+    background="#F6F6F6"
+    placeholder="搜索当地景点、餐厅、酒店等"
+  />
+  <swiper autoplay interval="5000" circular indicator-dots>
+    <swiper-item><image mode="widthFix" src="http://yzy.2333.pub/lunbo10.jpg"/></swiper-item>
+    <swiper-item><image mode="widthFix" src="http://yzy.2333.pub/lunbo11.jpg"/></swiper-item>
+    <swiper-item><image mode="widthFix" src="http://yzy.2333.pub/lunbo7.jpg"/></swiper-item>
+    <swiper-item><image mode="widthFix" src="http://yzy.2333.pub/lunbo9.jpg"/></swiper-item>
+  </swiper>
+  <view class="lead">
+    <view>
+      <image class="img" mode="widthFix" src="../../images/jingdian.png"></image>
+      <view>景点</view>
+    </view>
+    <view>
+      <image class="img" mode="widthFix" src="../../images/zhusu2.png"></image>
+      <view>住宿</view>
+    </view>
+    <view>
+      <image class="img" mode="widthFix" src="../../images/meishi.png"></image>
+      <view>美食</view>
+    </view>
+    <view>
+      <image class="img" mode="widthFix" src="../../images/gouwu.png"></image>
+      <view>购物</view>
+    </view>
+  </view>
+  <view class="page-section-spacing" style="margin-top: 10px;">
+    <scroll-view class="scroll-view_H" scroll-x="true" style="width: 100%">
+      <view class="example">
+        <view>
+          <image mode="widthFix" src="http://yzy.2333.pub/v2.jpg"></image>
+          <view>黄洋界</view>
+        </view>
+        <view>
+          <image mode="widthFix" src="http://yzy.2333.pub/v1.jpg"></image>
+          <view>五指峰</view>
+        </view>
+        <view>
+          <image mode="widthFix" src="http://yzy.2333.pub/lunboa3.jpg"></image>
+          <view>博物馆</view>
+        </view>
+        <view>
+          <image mode="widthFix" src="http://yzy.2333.pub/lunboa4.png"></image>
+          <view>茨坪镇</view>
+        </view>
+      </view>
+    </scroll-view>
+  </view>
+
+  <view class="first">初游看这里</view>
+  <view class="button">
+    <view>
+      <view class="green">
+        <view>#</view>
+        <view>定制路线</view>
+      </view>
+      <view class="blue">
+        <view>#</view>
+        <view>天气预报</view>
+      </view>
+      <view class="blue">
+        <view>#</view>
+        <view>交通方式</view>
+      </view>
+    </view>
+    <view>
+      <view class="red">
+        <view>#</view>
+        <view>旅游须知</view>
+      </view>
+      <view class="blue">
+        <view>#</view>
+        <view>紧急联系</view>
+      </view>
+      <view class="blue">
+        <view>#</view>
+        <view>人工服务</view>
+      </view>
+    </view>
+  </view>
+</view>

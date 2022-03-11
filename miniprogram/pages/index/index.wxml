@@ -1,0 +1,52 @@
+<van-search
+  value="{{ value }}"
+  placeholder="请输入搜索关键词"
+  show-action
+  bind:search="onSearch"
+  bind:cancel="onCancel"
+/>
+<swiper autoplay interval="5000" circular indicator-dots>
+  <swiper-item><image mode="widthFix" src="http://yzy.2333.pub/6.jpg"/></swiper-item>
+  <swiper-item><image mode="widthFix" src="http://yzy.2333.pub/7.jpg"/></swiper-item>
+  <swiper-item><image mode="widthFix" src="http://yzy.2333.pub/8.jpg"/></swiper-item>
+</swiper>
+<view class="null"></view>
+<view class="container">
+    <view class="up">
+        <view class="one" bindtap="strategy">
+            <view>旅游攻略</view>
+            <image mode="heightFix" src="../../images/gonglue.png"></image>
+        </view>
+<!--        <navigator url="/pages/details/index">-->
+            <view class="two" bindtap="skip">
+                <view>住宿沟通</view>
+                <image mode="heightFix" src="../../images/zhusu.png"></image>
+            </view>
+<!--        </navigator>-->
+    </view>
+    <view class="down">
+        <view class="three">
+            <view>扶贫商城</view>
+            <image mode="heightFix" src="../../images/shangcheng.png"></image>
+        </view>
+        <view class="four">
+            <view>论坛交流</view>
+            <image mode="heightFix" src="../../images/goutong.png"></image>
+        </view>
+    </view>
+</view>
+<view class="article">
+    <view class="title">大家都爱玩</view>
+    <view class="jgs">
+        <view class="titleOne" bindtap="jingGangShan">
+            井冈山--中国革命的摇篮
+        </view>
+        <image mode="widthFix" src="http://yzy.2333.pub/fengmian1.jpg"></image>
+    </view>
+    <view class="ya"> 
+        <view class="titleOne" bindtap="ya">
+            延安--中国革命圣地
+        </view>
+        <image mode="widthFix" src="http://yzy.2333.pub/fengmian3.jpg"></image>
+    </view>
+</view>

@@ -1,0 +1,49 @@
+<image class="img" mode="widthFix" src="http://yzy.2333.pub/l.jpg"></image>
+
+<!-- <view class="total">
+    <image mode="widthFix" class="one" src="http://yzy.2333.pub/jgs1.jpg"></image>
+    <view class="two">
+        <image mode="widthFix" src="http://yzy.2333.pub/jgs2.png"></image>
+        <view>这是入选了《全国红色旅游景点景区名录》和中国一百个红色旅游经典景区名单的中国红色革命的摇篮。</view>
+    </view>
+    <view class="three">
+        <view style="color:red;" class="threeA">// 风光无限 //</view>
+        <view class="threeB">井冈山,革命历史辉煌,自然风光绚烂,红绿辉映,是国家5A级旅游景区、国家级自然保护区、全国红色旅游景区、世界生物圈保护区。井冈山位于江西省西南部,地处湘赣两省交界的罗霄山脉中段,古有"郴衡湘赣之交,千里罗霄之腹"之称。井冈山景区面积为33345公里,有11大景区, 76个景点, 460多处景观景物。干峰竞秀,万壑争流,苍茫林海,飞瀑流泉,融雄、险、幽、奇、秀为一体,峰峦、山石、瀑布、溶洞、温泉、珍稀动植物、高山田园风光应有尽有。</view>
+    </view>
+    <view class="four">
+        <image mode="widthFix" src="http://yzy.2333.pub/jgs3.jpg"></image>
+        <view>井冈山造币厂是中国共产党在革命根据地内创办的第一个造币厂，红军造币厂的建立和“工"字银元的发行流通,帮助井冈山军民度过了艰难的岁月,在中国革命政权的货币发展史上占有重要的历史地位。造币厂的门前是一大的红军时期的银币。”</view>
+    </view>
+    <view class="box">
+        <view class="five">
+            <view class="fiveA">黄洋界又名"汪洋界",位于茨坪北面,有名的黄洋界保卫战就发生在这里。一句"黄洋界上炮声隆”、“过了黄洋界，险处不须看"更是让黄洋界家喻户晓。</view>
+            <image mode="widthFix" src="http://yzy.2333.pub/jgs4.jpg"></image>
+        </view>
+        <image mode="widthFix" class="one" src="http://yzy.2333.pub/jgs5.png"></image>
+        <view class="six">
+            <view class="title">黄洋界云海</view>
+            <view>黄洋界位于井冈山茨坪景区30公里处,海拔1343米,连绵起伏的群山像一座天坛屏障。这里不仅悬崖陡峭,山势巍峨,而且是云的海洋,雾的世界,素有"云中公园"之称。它有黄山云雾的奇丽，庐山云海的宝光，又有重庆雾都的壮观。山上常年约有三分之一的时间处在茫茫云海之中。云海变幻,蔚为壮观。</view>
+        </view>
+    </view>
+    <view class="seven"></view>
+    <van-divider class="line" borderColor="#f04b42"/>
+    <view class="eight">
+        <view class="eightA">旅游攻略</view>
+        <view class="eightB">
+            <image mode="widthFix" src="http://yzy.2333.pub/live.png"></image>
+            <view>住宿:酒店、民宿,建议定在茨坪景区比较方便。</view>
+        </view>
+        <van-divider class="line" borderColor="#f04b42"/>
+        <view class="eightC">
+            <image mode="widthFix" src="http://yzy.2333.pub/fly.png"></image>
+            <view>交通:火车站公共巴士(5元)、拼车(人均20元)抵达茨坪镇井冈山机场、南昌机场、湖南、浙江、江西的小伙伴可自驾</view>
+        </view>
+        <van-divider class="line" borderColor="#f04b42"/>
+        <view class="eightD">
+            <image mode="widthFix" src="http://yzy.2333.pub/eat.png"></image>
+            <view>美食:井冈山南瓜汤、荷包玻璃鱼、莲花鸭血、三石菜等</view>
+        </view>
+        <van-divider class="line" borderColor="#f04b42"/>
+    </view>
+    <view class="nine">旅游线路推荐</view>
+</view> -->

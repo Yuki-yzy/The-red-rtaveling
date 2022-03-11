@@ -1,0 +1,12 @@
+<view class="container">
+  <navigator url="/pages/login/index" style="width: 50%;" >
+    <van-button  type="primary" size="large" color="linear-gradient(to right, #F12711, #F5AF19)">
+      我是房东
+    </van-button>
+  </navigator>
+  <navigator url="/pages/guest/index" style="width: 50%;">
+    <van-button type="primary" size="large" color="linear-gradient(to right, #F12711, #F5AF19)">
+      我是房客
+    </van-button>
+  </navigator>
+</view>

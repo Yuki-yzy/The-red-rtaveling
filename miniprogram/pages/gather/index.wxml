@@ -1,0 +1,31 @@
+<van-search
+  value="{{ value }}"
+  placeholder="请输入想要居住的红旅景点"
+  show-action
+  bind:search="onSearch"
+  bind:cancel="onCancel"
+/>
+<view>
+  <view 
+  wx:for="{{list}}" 
+  wx:for-item="item" 
+  wx:for-index="index"
+  wx:key="_id"
+  class="total">
+  <van-divider />
+  <view class="list">
+    <view>
+      <image src="{{item.imgUrl}}" alt=""/>
+    </view>
+    <view class="right">
+      <view>{{item.hotal}}</view>
+      <view>评分：{{item.math}}</view>
+      <view>具体位置：{{item.area}}</view>
+      <view>周边景区：{{item.reason}}</view>
+      <view class="money">{{item.money}}元</view>
+    </view>
+  </view>
+  <van-button type="primary" size="small" color="linear-gradient(to right, #F12711, #F5AF19)" class="button">与商家沟通</van-button>
+  <van-divider />
+  </view>
+</view>

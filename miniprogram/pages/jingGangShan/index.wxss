@@ -1,0 +1,119 @@
+/* 
+.total {
+  margin: 10px 10px 10px 10px;
+  height: 500px;
+}
+.one {
+  width: 100%;
+}
+.two {
+  margin-top: 10px;
+  display: flex;
+  background-color: #FFF5F4;
+}
+.two>image {
+  align-self: center;
+  width: 70%;
+}
+.two>view {
+  padding-left: 10px;
+}
+.three {
+  margin-top: 50px;
+  background-color: #FFF5F4;
+}
+.threeA {
+  padding-left: 35%;
+}
+.threeB {
+  padding: 10px 10px 10px 10px;
+}
+.four {
+  margin-top: 30px;
+  background-color: #FFF5F4;
+}
+.four>image {
+  margin: 20px 0 20px 10px;
+  width: 40%;
+}
+.four>view {
+  padding: 10px 10px 10px 10px;
+}
+.five {
+  margin-top: 30px;
+  display: flex;
+  margin-bottom: 50px;
+}
+.fiveA {
+  border-top: 2px solid red;
+  border-bottom: 2px solid red;
+  width: 50%;
+  padding: 20px 20px 20px 20px;
+  background-color: #FFF5F4;
+}
+.five>image {
+  align-self: center;
+  width: 50%;
+}
+.box {
+  position: relative;
+}
+.six {
+  position: absolute;
+  top: 410px;
+  background-color: white;
+  margin: 0 30px 0 30px;
+  border: 1px solid #f04b42;
+  padding: 20px 10px 20px 10px;
+}
+.title {
+  background-color: #f04b42;
+  width: 60%;
+}
+.six>view {
+  margin-top: 20px;
+} 
+.seven {
+  height: 250px;
+}
+.eight {
+  margin-top: 30px;
+  background-color: #FFF5F4;
+}
+.eightA {
+  width: 30%;
+  text-align: center;
+  line-height: 25px;
+  height: 25px;
+  color: white;
+  margin: 0 auto;
+  background-color: tomato;
+}
+.eightB,.eightC,.eightD {
+  display: flex;
+}
+.eightB>image {
+  padding-right: 10px;
+  width: 20%;
+  align-self: center;
+}
+.eightC>image {
+  padding-right: 10px;
+  width: 40%;
+  align-self: center;
+}
+.eightD>image {
+  padding-right: 10px;
+  width: 20%;
+  align-self: center;
+}
+.nine {
+  margin-top: 20px;
+  background-color: tomato;
+  height: 50px;
+  width: 40%;
+} */
+image {
+  width: 100%;
+  margin: 0 auto;
+}

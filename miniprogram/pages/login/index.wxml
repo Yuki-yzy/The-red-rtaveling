@@ -1,0 +1,82 @@
+<van-cell-group>
+  <van-field
+    value="{{ user.name }}"
+    clearable
+    label="性名"
+    placeholder="请输入用户名"
+    bind:change="nameChange"
+  />
+  <view class="gender">
+    <view>性别</view>
+    <radio-group bindchange="genderChange">
+      <radio value="male" class="man" id="man">男</radio>
+      <radio value="female" class="woman">女</radio>
+    </radio-group>
+  </view>
+  <van-field
+    value="{{ user.area }}"
+    clearable
+    label="具体位置"
+    placeholder="请输入具体位置"
+    bind:change="areaChange"
+    bind:focus="showPopup" 
+    bind:clear="clear"
+  />
+  <van-popup
+    show="{{ show }}" 
+    position="bottom"
+    custom-style="height: 50%;"
+    bind:close="onClose">
+    <van-area area-list="{{ areaList }}" bind:confirm="area" />
+  </van-popup>
+  <!-- <van-field
+    value="{{ user.address }}"
+    clearable
+    label="详细住址"
+    placeholder="请输入详细住址"
+    bind:change="addressChange"
+  /> -->
+  <van-field
+    value="{{ user.describe }}"
+    clearable
+    label="家庭情况介绍"
+    placeholder="请输入家庭情况"
+    bind:change="describeChange"
+  />
+  <van-field
+    value="{{ user.hotal }}"
+    clearable
+    label="民宿名称"
+    placeholder="请输入民宿名称"
+    bind:change="hotalChange"
+  />
+  <van-field
+    value="{{ user.money }}"
+    clearable
+    label="理想价格"
+    placeholder="请输入理想价格"
+    bind:blur="judgeNumber"
+  />
+  <van-field
+    value="{{ user.reason }}"
+    clearable
+    label="周边景区"
+    placeholder="请输入民宿周边景区"
+    bind:change="reasonChange"
+  />
+</van-cell-group>
+<view class="upload">
+  <view>民宿图片</view>
+  <van-button wx:if="{{showUpload}}" size="mini" class="up" color="linear-gradient(to right, #F12711, #F5AF19)" bind:click="upload">
+  上传图片
+  </van-button>
+</view>
+<view class="photo" wx:if="{{!showUpload}}"><view>图片预览</view><image mode="widthFix" src="{{user.imgUrl}}"></image></view>
+<view class="button">
+  <van-button color="linear-gradient(to right, #F12711, #F5AF19)" bind:click="submit">
+  提交审核
+  </van-button>
+</view>
+<van-toast id="van-toast" />
+<van-toast id="van-toast" />
+<van-dialog id="van-dialog" />
